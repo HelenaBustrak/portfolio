@@ -1,0 +1,171 @@
+main {
+    margin: 0 6%;
+    font-family: elido, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    ;
+}
+
+header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.headerImage {
+    height: 280px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+    padding: 5px 0 15px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 9px;
+}
+
+.logo {
+    height: 120px;
+    object-fit: cover;
+}
+
+.image {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.report p {
+    text-align: start;
+    padding: 0 18px;
+    font-size: 17px;
+    color:rgb(68, 68, 68)
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button {
+    width: 70%;
+    margin: 10px auto;
+    padding: 12px;
+    border: none;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: elido, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    
+}
+
+.rdBtn1 {
+    border: 2px solid #0A3641;
+    background-color: #0A3641;
+    color: white;
+}
+
+.rdBtn1:hover {
+    border: 2px solid #0A3641;
+    background-color: white;
+    color: #0A3641;
+    transition: 0.2s;
+}
+
+.rdBtn2 {
+    border: 2px solid #D98E04;
+    background-color: #D98E04;
+    color: white;
+}
+
+.rdBtn2:hover {
+    border: 2px solid #D98E04;
+    background-color: white;
+    color: #D98E04;
+    transition: 0.2s;
+}
+
+.scBtn1 {
+    border: 2px solid #20ca10;
+    background-color: #20ca10;
+    color: white;
+}
+
+.scBtn1:hover {
+    border: 2px solid #20ca10;
+    background-color: white;
+    color: #20ca10;
+    transition: 0.2s;
+}
+
+.scBtn2 {
+    border: 2px solid #9112ff;
+    background-color: #9112ff;
+    color: white;
+}
+
+.scBtn2:hover {
+    border: 2px solid #9112ff;
+    background-color: white;
+    color: #9112ff;
+    transition: 0.2s;
+}
+
+.hbBtn1 {
+    border: 2px solid #335020;
+    background-color: #335020;
+    color: white;
+}
+
+.hbBtn1:hover {
+    border: 2px solid #335020;
+    background-color: white;
+    color: #335020;
+    transition: 0.2s;
+}
+
+.hbBtn2 {
+    border: 2px solid #886625;
+    background-color: #886625;
+    color: white;
+}
+
+.hbBtn2:hover {
+    border: 2px solid #886625;
+    background-color: white;
+    color: #886625;
+    transition: 0.2s;
+}
+
+@media (min-width: 670px) {
+    main {
+        margin: 0 15%;
+    }
+
+    .report p {
+        padding: 0 45px;
+    }
+}
+
+@media (min-width: 1070px) {
+    main {
+        margin: 0 25%;
+    }
+}
+
+@media (min-width: 1500px) {
+    main {
+        margin: 0 30%;
+    }
+}
+
+@media (min-width: 1920px) {
+    main {
+        margin: 0 35%;
+    }
+}
