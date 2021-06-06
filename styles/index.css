@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 main {
     margin: 0 6%;
     font-family: elido, sans-serif;
@@ -50,7 +58,7 @@ h2 {
     font-weight: 600;
 }
 
-button {
+a {
     width: 70%;
     margin: 10px auto;
     padding: 12px;
@@ -61,6 +69,7 @@ button {
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
+    text-decoration: none;
     
 }
 
